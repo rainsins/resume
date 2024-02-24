@@ -1,18 +1,70 @@
-# PDF Resume with Relaxed.JS (mnjul's design)
+# Getting Started with Create React App
 
-This directory contains a sample resume edited with ReLaXed.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-> Master document: [``resume.pug``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/resume/resume.pug). <br/>
-Stylesheet: [``resume.scss``](https://github.com/RelaxedJS/ReLaXed-examples/blob/master/examples/resume/resume.scss).
+## Available Scripts
 
-<p align=center><img src="https://github.com/RelaxedJS/ReLaXed-examples/raw/master/examples/resume/resume_screenshot.png"/></p>
+In the project directory, you can run:
 
-While web-based resumes are increasingly popular, some employers still require a PDF document. PDF CVs can be created from Word or LaTeX templates, HTML/CSS layouts are more diverse and sometimes better looking.
+### `npm start`
 
-In this example, we are converting [this project](https://github.com/mnjul/html-resume), a clean and beautiful HTML CV designed for printing by Min-Zhong "John" Lu (@mnjul on github).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Some highlights:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- Since the resume is composed of *item* sections with similar structures, we define an ``item`` mixin, which makes the final source much less verbose.
-- Have a look at the SCSS file: we are stealing all the styling from the internet (Google fonts, Font-Awesome, and of course @mnjul's CSS stylesheet). We only write two lines of specific CSS to fix some glitches in Google Chrome
-- It's nice that PDFs don't carry the weight of the CSS/JS libraries they use. The end result has a super-small size (30k)
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

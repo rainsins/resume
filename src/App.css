@@ -1,0 +1,29 @@
+body{
+  position: relative;
+  background: #d3d3d3;
+}
+
+.App {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 210mm;
+  height: 297mm;
+  transform: translateX(-50%);
+  text-align: center;
+  background: #fff;
+}
+
+.rersume-box{
+  width: calc(100% - (56px + 2rem));
+  height: calc(100% - (56px + 2rem));
+  border: 2px solid #000;
+  margin: 28px;
+  padding: 1rem;
+}
+
+.rersume-content-box{
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
