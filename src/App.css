@@ -2,28 +2,257 @@ body{
   position: relative;
   background: #d3d3d3;
 }
+@font-face {
+  font-family: "song";
+  src: url(./font/FZSSK.TTF);
+}
+
+@font-face {
+  font-family: "yw";
+  src: url(./font/BaskervillePro-Italic.OTF);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "yw";
+  src: url(./font/BaskervillePro-Regular.OTF);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "yw";
+  src: url(./font/BaskervillePro-Medium.OTF);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "yw";
+  src: url(./font/BaskervillePro-Bold.OTF);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "yw";
+  src: url(./font/BaskervillePro-MediumItalic.OTF);
+  font-weight: 500;
+  font-style: italic;
+}
+
+:root{
+  --bg: 1px solid #d3d3d3;
+}
+
+.hr{
+  border-bottom: var(--bg);
+  margin: 16px 13px 16px 0;
+}
 
 .App {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 210mm;
-  height: 297mm;
+  width: 21cm;
+  height: 29.7cm;
   transform: translateX(-50%);
-  text-align: center;
   background: #fff;
+  font-family: "song";
 }
 
-.rersume-box{
-  width: calc(100% - (56px + 2rem));
-  height: calc(100% - (56px + 2rem));
+.resume-box{
+  width: calc(100% - (56px + 3rem));
+  height: calc(100% - (56px + 3rem));
   border: 2px solid #000;
   margin: 28px;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
-.rersume-content-box{
+.resume-content-box{
   width: 100%;
   height: 100%;
-  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+}
+.resume-content-div-info-box{
+  height: 13.5%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 7fr 4.5fr;
+}
+.resume-content-div-info-name{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.resume-content-div-info-name-da{
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.resume-content-div-info-name-sub{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.resume-content-div-info-box{
+  border-bottom: var(--bg);
+  margin: 8px 0;
+}
+
+.resume-content-div-info-dec{
+  display: grid;
+  grid-template-columns: 16px 1fr ;
+  font-size: 16px;
+  align-items: center;
+  gap: 4px;
+  margin: 12px 0;
+  font-family: "yw","song";
+}
+
+.resume-content-dev-info-box{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 7fr 4.5fr;
+  gap: 3px;
+  margin-top: 24px;
+  flex: 1;
+  border-bottom: var(--bg);
+  padding-bottom: 12px;
+}
+
+.resume-content-dev-info-left-box{
+  width: 100%;
+}
+
+.app-title{
+  position: relative;
+  font-size: .9rem;
+  font-weight: 900;
+  color: #000;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+
+.app-title::before{
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  content: "";
+  width: 32px;
+  border: 1px solid #000;
+}
+
+.app-info{
+  font-size: .6rem;
+
+}
+
+.app-grade-box{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1.3fr;
+  font-size: .6rem;
+  margin: 14px 0 0 0;
+  
+}
+
+.resume-grade-item-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  border-left: var(--bg);
+}
+
+.resume-content-dev-info-right-box{
+  border-left: var(--bg);
+  padding-left: 12px;
+}
+
+.resume-grade-item-grade{
+  text-align: center;
+  margin-top: 8px;
+}
+
+
+.edu-box{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.school-info-title{
+  width: 100%;
+  display: flex;
+}
+
+.school-name{
+  flex: 1.4;
+  font-size: 14px;
+  font-weight: 600;
+}
+.school-time{
+  flex: 1;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  color: #878787;
+  justify-content: flex-end;
+  padding-right: 13px;
+  font-family: "yw";
+}
+
+.school-info-porf{
+  font-family: "yw","song";
+  font-size: 12px;
+  margin: 2px 0 8px 0;
+}
+.school-info-dec{
+  font-size: 14px;
+  font-family: "yw","song";
+  margin-bottom: 16px;
+}
+.school-info-dec span{
+  font-weight: 600;
+}
+
+.tech-item-box{
+  display: grid;
+  grid-template-columns: 16px 1fr;
+  gap: 2px;
+  align-items: center;
+}
+
+.tech-item-box div{
+  display: flex;
+  font-size: 16px;
+  font-family: "yw";
+  line-height: 16px;
+  align-content: center;
+}
+.tech-info-stack{
+  display: flex;
+  align-content: center;
+}
+
+.bottom-profile{
+  width: 100%;
+  height: 10.5%;
+  margin-top: 12px;
+}
+.dec-item{
+  position: relative;
+  margin-left: 12px;
+}
+.dec-item::before{
+  position: absolute;
+  top:50%;
+  left: -12px;
+  transform: translateY(-50%);
+  content: "†";
 }

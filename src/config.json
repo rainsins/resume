@@ -1,3 +1,160 @@
 {
-    "name": "尉旭胜"
+    "name": "尉旭胜",
+    "subname": "rainsin",
+    "phone": "13843274496",
+    "mail": "mail@rainsin.cn",
+    "addr": "甘肃 天水",
+    "blog": "https://blog.rainsin.cn",
+    "now_addr": "甘肃 天水",
+    "appunit": "长安大学",
+    "appprof": "电子信息",
+    "grades":[
+        {
+            "class": "政治",
+            "grade": "xx"
+        },
+        {
+            "class": "英语",
+            "grade": "xx"
+        },
+        {
+            "class": "数学",
+            "grade": "xx"
+        },
+        {
+            "class": "计算机基础",
+            "grade": "xx"
+        }
+    ],
+    "edu":[
+        {
+            "start_date": "2018.9",
+            "end_date": "2022.6",
+            "level": "本科",
+            "school": "东北电力大学",
+            "prof": "应用化学",
+            "dec": "高等数学、线性代数、C语言程序设计",
+            "experience": "xxxx,xxxxxxxxxx,xxxxxxxxxxxx,xxxxxxxxxxxxxxxxxx。"
+        }
+    ],
+    "project":[
+        {
+            "name": "一个简洁的计算机研究生简历模版",
+            "start_date": "2018.9",
+            "end_date": "2022.6",
+            "tech_stack": "React、CSS",
+            "unity": "xxx公司",
+            "exec": "前端工程师",
+            "dec": [
+                "使用了先进的技术",
+                "独立完成了组件的封装"
+            ],
+            "experience": ""
+        },
+        {
+            "name": "图片色盘提取的简单实现",
+            "start_date": "2018.9",
+            "end_date": "2022.6",
+            "tech_stack": "C++",
+            "unity": "xxx公司",
+            "dec": [
+                "使用了先进的技术",
+                "独立完成了组件的封装"
+            ],
+            "experience": ""
+        },
+        {
+            "name": "TCP/IP的C++实现",
+            "start_date": "2018.9",
+            "end_date": "2022.6",
+            "tech_stack": "C++",
+            "unity": "xxx公司",
+            "dec": [
+                "使用了先进的技术",
+                "独立完成了组件的封装"
+            ],
+            "experience": ""
+        }
+    ],
+    "experience":[
+        {
+            "name": "图片色盘提取的简单实现",
+            "start_date": "2018.9",
+            "end_date": "2022.6",
+            "tech_stack": [{
+                "svg": "",
+                "title": "React"
+            },{
+                "svg": "",
+                "title": "CSS"
+            }],
+            "unity": "xxx公司",
+            "exec": "前端工程师",
+            "dec": [
+                "",
+                ""
+            ],
+            "experience": ""
+        }
+    ],
+    "skill":[
+        {
+            "name": "C++",
+            "proficiency": 70,
+            "icon": ""
+        },
+        {
+            "name": "JavaScript",
+            "proficiency": 80,
+            "icon": ""
+        },
+        {
+            "name": "Latex",
+            "proficiency": 60,
+            "icon": ""
+        },
+        {
+            "name": "HTML/CSS",
+            "proficiency": 80,
+            "icon": ""
+        },
+        {
+            "name": "React",
+            "proficiency": 80,
+            "icon": ""
+        },
+        {
+            "name": "Python",
+            "proficiency": 50,
+            "icon": ""
+        }
+    ],
+    "profile":"具有敬业精神，踏实勤快，领悟性强，性格开朗，善于交流，有良好的团队精神，本人性格活泼开朗，有亲和力，待人真诚，善解人意，有较强的语言表达能力和沟通能力；勤奋上进，坚强又毅力，做事认真负责，脚踏实地，有耐心，思维缜密，具备计算机科学研究的基本素质和潜力。",
+    "hobby": [
+        {
+            "name": "羽毛球",
+            "proficiency": 50,
+            "icon": ""
+        },
+        {
+            "name": "网球",
+            "proficiency": 50,
+            "icon": ""
+        },
+        {
+            "name": "魔方",
+            "proficiency": 50,
+            "icon": ""
+        },
+        {
+            "name": "篮球",
+            "proficiency": 50,
+            "icon": ""
+        },
+        {
+            "name": "乒乓球",
+            "proficiency": 50,
+            "icon": ""
+        }
+    ]
 }
