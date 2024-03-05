@@ -58,6 +58,11 @@ body{
   margin: 16px 13px 16px 0;
 }
 
+.hrr{
+  border-bottom: var(--bg);
+  margin: 16px 0px 16px 0;
+}
+
 html,body{
   height:297mm;
   width:210mm;

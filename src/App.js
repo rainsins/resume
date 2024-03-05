@@ -2,8 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import {useEffect} from 'react';
 import config from './config.json';
-import jsPDF from "jspdf";
-import html2canvas from "html2canvas";
 
 function App() {
   useEffect(()=>{
@@ -163,12 +161,12 @@ function App() {
               <div className='resume-skill-box'>
                 {skill_item}
               </div>
-              <div className='hr'></div>
+              <div className='hrr'></div>
               <div className='app-title'>
                 所获奖项
               </div>
               {ui_item}
-              <div className='hr'></div>
+              <div className='hrr'></div>
               <div className='app-title'>
                 个人评价
               </div>
