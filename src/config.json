@@ -1,12 +1,12 @@
 {
-    "name": "尉旭胜",
+    "name": "蔡徐坤",
     "subname": "rainsin",
-    "phone": "13843274496",
+    "phone": "xxxxxxxxxxxx",
     "mail": "mail@rainsin.cn",
     "addr": "甘肃 天水",
     "blog": "https://blog.rainsin.cn",
     "now_addr": "甘肃 天水",
-    "appunit": "长安大学",
+    "appunit": "野鸡大学",
     "appprof": "电子信息",
     "grades":[
         {
@@ -31,7 +31,7 @@
             "start_date": "2018.9",
             "end_date": "2022.6",
             "level": "本科",
-            "school": "东北电力大学",
+            "school": "坤坤大学",
             "prof": "应用化学",
             "dec": "高等数学、线性代数、C语言程序设计",
             "experience": "xxxx,xxxxxxxxxx,xxxxxxxxxxxx,xxxxxxxxxxxxxxxxxx。"
@@ -101,32 +101,42 @@
         {
             "name": "C++",
             "proficiency": 70,
-            "icon": ""
+            "icon": "C++"
         },
         {
             "name": "JavaScript",
             "proficiency": 80,
-            "icon": ""
+            "icon": "JavaScript"
         },
         {
             "name": "Latex",
             "proficiency": 60,
-            "icon": ""
+            "icon": "Latex"
         },
         {
-            "name": "HTML/CSS",
+            "name": "MarkDown",
+            "proficiency": 70,
+            "icon": "markdown"
+        },
+        {
+            "name": "Html",
             "proficiency": 80,
-            "icon": ""
+            "icon": "HTML"
+        },
+        {
+            "name": "CSS",
+            "proficiency": 80,
+            "icon": "CSS"
         },
         {
             "name": "React",
             "proficiency": 80,
-            "icon": ""
+            "icon": "React"
         },
         {
             "name": "Python",
-            "proficiency": 50,
-            "icon": ""
+            "proficiency": 40,
+            "icon": "Python"
         }
     ],
     "profile":"具有敬业精神，踏实勤快，领悟性强，性格开朗，善于交流，有良好的团队精神，本人性格活泼开朗，有亲和力，待人真诚，善解人意，有较强的语言表达能力和沟通能力；勤奋上进，坚强又毅力，做事认真负责，脚踏实地，有耐心，思维缜密，具备计算机科学研究的基本素质和潜力。",
@@ -155,6 +165,15 @@
             "name": "乒乓球",
             "proficiency": 50,
             "icon": ""
+        },
+        {
+            "name": "书法",
+            "proficiency": 50,
+            "icon": ""
         }
+    ],
+    "prize": [
+        "连续熬夜时间最长记录保持者",
+        "连续打胶次数最多记录保持者"
     ]
 }

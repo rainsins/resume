@@ -67,6 +67,43 @@ function App() {
     );
   });
 
+  const skill_item = config.skill.map((el, index)=>{
+    const style_bg = {
+      width: `${el.proficiency}%`
+    };
+    return(
+      <div className='resume-skill-item' key={index}>
+        <img src={`./img/icon/${el.icon}.svg`}></img>
+        <span className='resume-skill-title'>
+          {el.name}
+        </span>
+        <span className='resume-skill-bra'>
+          <span className='resume-skill-bra-in' style={style_bg}></span>
+        </span>
+      </div>
+    );
+  });
+
+  const hobby_item = config.hobby.map((el,index)=>{
+    return(
+      <div className='hobby-item'>
+        <img src={`./img/aihao/${el.name}.svg`} alt={el.name} />
+      </div>
+    );
+  });
+
+  const ui_style = {
+    marginBottom: "24px"
+  }
+
+  const ui_item = config.prize.map((el,index) => {
+    return(
+      <div className={`ui-item ${index == (config.prize.length - 1) ? "ui-last-box" : ""}`} >
+        {el}
+      </div>
+    );
+  })
+
   return (
     <>
     <div className="App" id='resume-print-box'>
@@ -123,16 +160,35 @@ function App() {
               <div className='app-title'>
                 技能
               </div>
+              <div className='resume-skill-box'>
+                {skill_item}
+              </div>
+              <div className='hr'></div>
+              <div className='app-title'>
+                所获奖项
+              </div>
+              {ui_item}
+              <div className='hr'></div>
+              <div className='app-title'>
+                个人评价
+              </div>
+              <div className='school-info-dec'>
+                {config.profile}
+              </div>
             </div>
           </div>
           <div className='bottom-profile'>
             <div className='app-title'>
-                个人评价
+              爱好
+            </div>
+            <div className='hobby-box'>
+              {hobby_item}
             </div>
           </div>
         </div>
       </div>
     </div>
+    
     </>
   );
 }
