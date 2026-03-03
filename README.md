@@ -3,7 +3,7 @@
 > **数据驱动的响应式计算机研究生简历生成引擎**
 > 核心理念：实现简历内容（JSON）与视觉排版（CSS/React）的高度解耦，为开发者提供最优雅的简历维护方案。
 
-## 🛠️ 技术栈
+## 技术栈
 
 * **框架**: React 18
 * **样式**: CSS3 (Flexbox, Grid, Media Queries)
@@ -59,9 +59,3 @@ npm start
 ## 贡献与反馈
 
 欢迎提交 Issue 或 Pull Request。如果你觉得这个项目对你有帮助，欢迎点一个 **Star** 🌟。
-
----
-
-**Author**: [尉旭胜 (RainSin)](https://www.google.com/search?q=https://github.com/rainsin)
-
-**Blog**: [blog.rainsin.cn](https://blog.rainsin.cn)
