@@ -1,18 +1,18 @@
 {
     "name": "尉旭胜",
-    "subname": "男 | 2000.03 | 26岁",
-    "phone": "16693307265",
-    "mail": "rainsin@qq.com",
-    "addr": "甘肃 天水 甘谷",
-    "blog": "https://blog.rainsin.cn",
-    "appunit": "兰州理工大学",
+    "subname": "男 | 1997.03",
+    "phone": "xxxxxxxxxxx",
+    "mail": "xxxxx@xxxxxxx.com",
+    "addr": "xxx xxx xxx",
+    "blog": "https://xxxxxxxxxxxxx",
+    "appunit": "xxxxxxxxx",
     "appprof": "（专硕）电子信息",
     "grades": [
-        { "class": "政治", "grade": "65" },
-        { "class": "英语", "grade": "69" },
-        { "class": "数学", "grade": "86" },
-        { "class": "计算机基础", "grade": "75" },
-        { "class": "总分", "grade": "295" }
+        { "class": "政治", "grade": "xx" },
+        { "class": "英语", "grade": "xx" },
+        { "class": "数学", "grade": "xxx" },
+        { "class": "计算机基础", "grade": "xxx" },
+        { "class": "总分", "grade": "xxx" }
     ],
     "edu": [
         {
@@ -20,7 +20,7 @@
             "end_date": "2022.6",
             "school": "东北电力大学",
             "prof": "应用化学",
-            "experience": "曾获校级奖学金；系统自学计算机核心课程（数据结构、计网），擅长利用 C 语言进行实验数据建模与自动化分析。"
+            "experience": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
         }
     ],
     "project": [
@@ -67,7 +67,7 @@
         { "category": "工具/文档", "items": "LaTeX (学术排版), Git, 数学建模" }
     ],
     "profile": "具备化学背景的严谨思维与跨学科自学能力；热衷于系统编程与底层算法探索，追求高质量代码。",
-    "hobby_text": "羽毛球、网球、魔方、书法、篮球",
+    "hobby_text": "羽毛球、网球、魔方、书法、足球",
     "prize": [
         "计算机一级人工智能证书",
         "计算机二级Python证书",
@@ -84,10 +84,6 @@
         { "name": "计算机一级人工智能证书", "info": "了解 AI 基础概念与基本模型应用" }
     ],
     "hobby": "🏸 羽毛球、🎾 网球、🧩 魔方、🏀 篮球、🏓 乒乓球、🖌️ 书法",
-    "hobby_details": [
-        "热爱球类运动，具备良好的团队协作意识与竞技精神；",
-        "作为魔方与书法爱好者，拥有极强的耐心与细致的逻辑思维能力。"
-    ],
     "hobbies_v2": [
         { "name": "羽毛球", "icon": "🏸" },
         { "name": "网球", "icon": "🎾" },

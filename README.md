@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Resume React Engine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> **数据驱动的响应式计算机研究生简历生成引擎**
+> 核心理念：实现简历内容（JSON）与视觉排版（CSS/React）的高度解耦，为开发者提供最优雅的简历维护方案。
 
-## Available Scripts
+## 🛠️ 技术栈
 
-In the project directory, you can run:
+* **框架**: React 18
+* **样式**: CSS3 (Flexbox, Grid, Media Queries)
+* **数据**: JSON
+* **部署**: GitHub Pages / Vercel
 
-### `npm start`
+## 🚀 快速开始
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 1. 克隆仓库
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git clone https://github.com/rainsin/resume-react.git
+cd resume-react
 
-### `npm test`
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2. 安装与运行
 
-### `npm run build`
+```bash
+npm install
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+访问 `http://localhost:3000` 即可看到实时生成的简历。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. 定制你的简历
 
-### `npm run eject`
+编辑 `src/config.json` 文件，按照你的个人信息、项目经历和技能矩阵进行修改。页面会自动热重载（HMR）显示最新内容。
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📄 导出 PDF 指南
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+为了获得最佳的 PDF 效果，建议使用 **Chrome 浏览器**：
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. 在浏览器中打开简历页面。
+2. 按下 `Ctrl + P` (Windows) 或 `Cmd + P` (Mac)。
+3. **设置**:
+* 目标打印机：保存为 PDF
+* 布局：纵向
+* 纸张尺寸：A4
+* 边距：**无**（非常重要，项目已内置安全边距）
+* 选项：勾选“背景图形”
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 核心架构描述
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+项目通过将简历拆分为多个原子组件（Header, Skills, Projects, Education），利用 React 的组件化能力实现：
 
-### Code Splitting
+* **解耦**：内容更新不影响排版样式。
+* **密度优化**：通过算法逻辑，根据内容长度动态调整展示细节，确保技术栈信息不拥挤。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🤝 贡献与反馈
 
-### Analyzing the Bundle Size
+欢迎提交 Issue 或 Pull Request。如果你觉得这个项目对你有帮助，欢迎点一个 **Star** 🌟。
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+**Author**: [尉旭胜 (RainSin)](https://www.google.com/search?q=https://github.com/rainsin)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Blog**: [blog.rainsin.cn](https://blog.rainsin.cn)

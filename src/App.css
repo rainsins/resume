@@ -1,6 +1,9 @@
 body{
-  position: relative;
+  /* position: relative; */
   background: #d3d3d3;
+  margin: 10px auto;
+  width: 210mm;
+  height: 297mm;
 }
 @font-face {
   font-family: "song";
@@ -99,10 +102,10 @@ html,body{
   flex-direction: column;
 }
 .resume-content-div-info-box{
-  height: 13.5%;
+  height: 7.5%;
   width: 100%;
   display: grid;
-  grid-template-columns: 7fr 4.5fr;
+  grid-template-columns: 4fr 4.5fr 4.5fr;
 }
 .resume-content-div-info-name{
   width: 100%;
@@ -122,6 +125,9 @@ html,body{
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  letter-spacing: 1px;
+  color: #666;
+  font-size: .7em;
 }
 
 .resume-content-div-info-box{
@@ -146,8 +152,6 @@ html,body{
   gap: 3px;
   margin-top: 24px;
   flex: 1;
-  border-bottom: var(--bg);
-  padding-bottom: 12px;
 }
 
 .resume-content-dev-info-left-box{
@@ -160,7 +164,7 @@ html,body{
   font-weight: 900;
   color: #000;
   letter-spacing: 2px;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
 }
 
 .app-title::before{
@@ -172,15 +176,21 @@ html,body{
   border: 1px solid #000;
 }
 
-.app-info{
-  font-size: .6rem;
+.app-info-box{
+  display: flex;
+  justify-content: space-between;
+}
 
+.app-info{
+  font-size: .75rem;
+  margin-bottom: 3px;
+  margin-right: 10px;
 }
 
 .app-grade-box{
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1.3fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1.3fr;
   font-size: .6rem;
   margin: 14px 0 0 0;
   
@@ -210,6 +220,7 @@ html,body{
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: .5em;
 }
 
 .school-info-title{
@@ -274,6 +285,8 @@ html,body{
 .dec-item{
   position: relative;
   margin-left: 12px;
+  margin-bottom: 4px;
+  line-height: 1.4em;
 }
 .dec-item::before{
   position: absolute;
@@ -346,4 +359,18 @@ html,body{
 
 .ui-last-box{
   margin-bottom: 24px;
+}
+
+
+
+/* 技能分类容器 */
+.skill-group-box {
+  border-left: 3px solid #000; /* 加一个左侧装饰条增加专业感 */
+  padding-left: 8px;
+}
+
+/* 报考信息中的内容加粗 */
+.app-info strong {
+  font-weight: 900;
+  text-decoration: underline; /* 可选：加下划线强调 */
 }
