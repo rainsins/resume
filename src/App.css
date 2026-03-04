@@ -1,13 +1,11 @@
+@import 'https://mycdn.cpolar.cn/resume-font/fzss/result.css';
+
 body{
   /* position: relative; */
   background: #d3d3d3;
   margin: 10px auto;
   width: 210mm;
   height: 297mm;
-}
-@font-face {
-  font-family: "song";
-  src: url(./font/FZSSK.TTF);
 }
 
 @media print {
@@ -23,31 +21,31 @@ body{
 
 @font-face {
   font-family: "yw";
-  src: url(./font/BaskervillePro-Italic.OTF);
+  src: url(./font/BaskervillePro-Italic.woff2);
   font-weight: 300;
 }
 
 @font-face {
   font-family: "yw";
-  src: url(./font/BaskervillePro-Regular.OTF);
+  src: url(./font/BaskervillePro-Regular.woff2);
   font-weight: 400;
 }
 
 @font-face {
   font-family: "yw";
-  src: url(./font/BaskervillePro-Medium.OTF);
+  src: url(./font/BaskervillePro-Medium.woff2);
   font-weight: 500;
 }
 
 @font-face {
   font-family: "yw";
-  src: url(./font/BaskervillePro-Bold.OTF);
+  src: url(./font/BaskervillePro-Bold.woff2);
   font-weight: 600;
 }
 
 @font-face {
   font-family: "yw";
-  src: url(./font/BaskervillePro-MediumItalic.OTF);
+  src: url(./font/BaskervillePro-MediumItalic.woff2);
   font-weight: 500;
   font-style: italic;
 }
@@ -84,7 +82,7 @@ html,body{
   height: 29.7cm;
   transform: translateX(-50%);
   background: #fff;
-  font-family: "song";
+  font-family: "FZShuSong-Z01";
 }
 
 .resume-box{
@@ -142,7 +140,7 @@ html,body{
   align-items: center;
   gap: 4px;
   margin: 12px 0;
-  font-family: "yw","song";
+  font-family: "yw","FZShuSong-Z01";
 }
 
 .resume-content-dev-info-box{
@@ -245,13 +243,13 @@ html,body{
 }
 
 .school-info-porf{
-  font-family: "yw","song";
+  font-family: "yw","FZShuSong-Z01";
   font-size: 12px;
   margin: 2px 0 8px 0;
 }
 .school-info-dec{
   font-size: 14px;
-  font-family: "yw","song";
+  font-family: "yw","FZShuSong-Z01";
   margin-bottom: 16px;
 }
 .school-info-dec span{
