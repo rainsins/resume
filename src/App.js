@@ -5,7 +5,7 @@ import config from './config.json';
 
 function App() {
   useEffect(() => {
-    console.log(config);
+    document.title = "我的简历";
   }, []);
 
   // 项目经历
