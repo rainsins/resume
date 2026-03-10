@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/resume/static/css/main.3c4d2a11.css",
-    "main.js": "/resume/static/js/main.ca193d0a.js",
+    "main.css": "/resume/static/css/main.50f2cd45.css",
+    "main.js": "/resume/static/js/main.fadc09b9.js",
     "static/js/453.f19e9853.chunk.js": "/resume/static/js/453.f19e9853.chunk.js",
-    "static/media/FZSSK.woff2": "/resume/static/media/FZSSK.352c7d0cfd521ed9c678.woff2",
+    "static/media/FZSSK.woff2": "/resume/static/media/FZSSK.801faf406bc855032655.woff2",
     "static/media/BaskervillePro-Bold.woff2": "/resume/static/media/BaskervillePro-Bold.ba5a5c9bdbfe013a1edf.woff2",
     "static/media/BaskervillePro-Italic.woff2": "/resume/static/media/BaskervillePro-Italic.796ecbd66a1758e619e2.woff2",
     "static/media/BaskervillePro-MediumItalic.woff2": "/resume/static/media/BaskervillePro-MediumItalic.b4b86448d09b7b59cc3b.woff2",
@@ -11,12 +11,12 @@
     "static/media/BaskervillePro-Regular.woff2": "/resume/static/media/BaskervillePro-Regular.90926c3ca7f79bfdb35a.woff2",
     "static/media/logo.svg": "/resume/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/resume/index.html",
-    "main.3c4d2a11.css.map": "/resume/static/css/main.3c4d2a11.css.map",
-    "main.ca193d0a.js.map": "/resume/static/js/main.ca193d0a.js.map",
+    "main.50f2cd45.css.map": "/resume/static/css/main.50f2cd45.css.map",
+    "main.fadc09b9.js.map": "/resume/static/js/main.fadc09b9.js.map",
     "453.f19e9853.chunk.js.map": "/resume/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c4d2a11.css",
-    "static/js/main.ca193d0a.js"
+    "static/css/main.50f2cd45.css",
+    "static/js/main.fadc09b9.js"
   ]
 }
