@@ -1,4 +1,4 @@
-@import 'https://mycdn.cpolar.cn/resume-font/fzss/result.css';
+/* @import 'https://mycdn.cpolar.cn/resume-font/fzss/result.css'; */
 
 body{
   /* position: relative; */
@@ -17,6 +17,12 @@ body{
   width: 21cm;
   height: 29.7cm;
  }
+}
+
+@font-face {
+  font-family: "FZShuSong-Z01";
+  src: url(./font/FZSSK.woff2);
+  font-weight: 300;
 }
 
 @font-face {
@@ -189,7 +195,7 @@ html,body{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1.3fr;
-  font-size: .6rem;
+  font-size: .76rem;
   margin: 14px 0 0 0;
   
 }
@@ -218,7 +224,7 @@ html,body{
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-bottom: .5em;
+  /* margin-bottom: .5em; */
 }
 
 .school-info-title{
@@ -251,6 +257,7 @@ html,body{
   font-size: 14px;
   font-family: "yw","FZShuSong-Z01";
   margin-bottom: 16px;
+  line-height: 1.5em;
 }
 .school-info-dec span{
   font-weight: 600;
